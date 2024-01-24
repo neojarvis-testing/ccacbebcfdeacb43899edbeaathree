@@ -2,7 +2,7 @@
 
 from django.test import TestCase
 from django.urls import reverse
-from .views import calculate_greeting
+from greeting.greetapp.views import calculate_greeting
 
 class GreetingAppTests(TestCase):
     def run_test(self, test_func, *args, test_name=None):
